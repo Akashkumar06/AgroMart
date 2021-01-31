@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroAcres</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+ <!-- <! ----Akash Industrials--> 
+<body onload="render()">
+    <header>
+        <nav class="green accent-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo-m-l-2" >
+                    <em style="font-size:3rem !important;" class="material-icons">store</em>Organic Store</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li>
+                            <a href="cart.html"> Shopping Cart <span id="cart_n"></span>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a class="modal-trigger" href="#modal1">Admin</a>
+                           
+
+                        </li>
+
+                    </ul>
+
+            </div>
+
+
+
+        </nav>
+
+
+        
+    </header>
+    <main role="main">
+        <div style="height: 700px !important;" class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+                <a class="btn waves-effect white grey-text darken-text-2">
+                    ...
+                </a>
+            </div> 
+            <div class="carousel-item red white-text">
+                <img style="height: 700px important;" src="./image/img1.PNG" alt="">
+            </div>
+            <div class="carousel-item red white-text">
+                <img style="height: 700px important;" src="./image/img1.PNG" alt="">
+            </div>
+            <div class="carousel-item red white-text">
+                <img style="height: 700px important;" src="./image/img2.PNG" alt="">
+            </div>
+            <div class="carousel-item red white-text">
+                <img style="height: 700px important;" src="./image/img3.PNG" alt="">
+            </div>
+            <div class="carousel-item red white-text">
+                <img style="height: 700px important;" src="./image/img4.PNG" alt="">
+            </div>
+
+        </div>
+        <div class="container">
+            <br>
+            <h2 id="fruit">Fruit</h2>
+
+            <hr>
+            <div class="row" id="fruitDIV"></div>
+            <h2 id="juice">Juice</h2>
+
+            <hr>
+
+            <div class="row" id="juiceDIV"></div>
+            <h2 id="salad">salad</h2>
+
+            <hr>
+
+            <div class="row" id="saladDIV"></div>
+            <hr class="featurette-divider">
+
+
+
+
+</div>
+<footer class="container">
+    <p class="float-right">
+        <a href="#">Top</a>
+    </p>
+    <div class="row">
+        AgroAcres
+
+    </div>
+
+</footer>
+    </main>
+
+    <div class="modal1" id="modal">
+        <div class="modal-content">
+            <div class="row">
+                <form autocomplete="off" class="col s12" id="formLogin">
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <em class="material-icons prefix" >account_circle</em>
+
+
+                        </div>
+                        <input type="text" required id="userName"
+                        class="validate">
+                        <label for="icon_prefix">User</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <em class="material-icons prefix">
+                            fingerprint
+                        </em>
+                        <input type="password" required id="userPassword"
+                        class="validate">
+                        <label for="icon_prefix">Password</label>
+                        
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit <em class="material-icons right">send</em>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./js/main.js"></script>
+            
+
+    
+</body>
+</html>
